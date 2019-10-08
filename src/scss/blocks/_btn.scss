@@ -1,0 +1,39 @@
+.btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 3px;
+    font-size: 18px;
+    transition: .3s;
+    cursor: pointer;
+    height: 50px;
+    width: 368px;
+    max-width: 100%;
+    font-weight: 300;
+    &-center{
+        margin: 0 auto;
+    }
+    &-blue{
+        background-color: #00aaff;   
+        color: white;  
+        &:hover{
+            background-color: #0278ff;
+        }
+        &:active{
+            background-color: #00aaff;   
+        }
+    }
+    &-ghost{
+        border: 1px solid #00aaff;
+        color: #00aaff;
+        background: transparent;
+        &:hover{
+            background-color: #00aaff;
+            color: white;
+        }
+        &:active{
+            background-color: transparent;
+            color: inherit;
+        }
+    }
+}

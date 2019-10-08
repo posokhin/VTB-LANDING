@@ -1,0 +1,20 @@
+@import '../../node_modules/normalize.css/normalize';
+@import '../../node_modules/animate.css/animate';
+@import './fonts/_fonts';
+
+@import './help/_flex';
+@import './help/_mixins';
+
+
+@import './blocks/_btn';
+@import './blocks/_popap';
+@import './blocks/_b-cookie';
+
+
+@import './layout/_base';
+@import './layout/header';
+@import './layout/_block1';
+@import './layout/_block2';
+@import './layout/_block3';
+@import './layout/_block4';
+@import './layout/footer';

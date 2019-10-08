@@ -1,0 +1,112 @@
+.block3{
+    background-color: #002882;
+    padding: 60px 0;
+    color: white;
+    &__left{
+        width: 50%;
+        padding: 0 40px 0 0;
+        @include media(768){
+            width: 100%;
+            padding: 0;
+            margin-bottom: 20px;
+        }
+        &-title{
+            font-size: 45px;
+            font-weight: 300;
+            line-height: 55px;    
+            margin-bottom: 30px;   
+            max-width: 470px; 
+            @include media(1000){
+                font-size: 30px;
+                line-height: normal;
+            }
+            @include media(768){
+                font-size: 20px;
+                margin-bottom: 10px;
+            }
+        }
+        &-desc{
+            font-size: 20px;
+            font-weight: 300;
+            line-height: 30px;   
+            max-width: 360px;  
+            @include media(768){
+                font-size: 16px;
+                line-height: normal;
+            }   
+        }
+    }
+    &__right{
+        margin-top: 70px;
+        width: 50%;
+        padding: 0 0 0 40px;  
+        @include media(1000){
+            margin-top: 0;
+        }
+        @include media(768){
+            width: 100%;
+            padding: 0;
+        }
+    }
+    &__success{
+        display: none;
+        text-align: center;
+        border: 1px solid #dbdbdb;
+        padding: 30px 15px;
+        font-size: 20px;
+        font-weight: 300;
+        line-height: 30px;
+        @include media(768){
+            padding: 20px 15px;
+            font-size: 16px;
+            line-height: normal;
+        }
+        p{
+            text-align: center;
+            max-width: 400px;
+            margin: 20px auto 20px;
+        }
+        a{
+            text-decoration: underline;
+            color: white;
+        }
+    }
+    &__form{
+        span{
+            display: block;
+            font-size: 20px;
+            font-weight: 300;
+            line-height: 30px;
+            margin-bottom: 20px;   
+            @include media(768){
+                line-height: normal;
+            }  
+        }
+        &-fields{
+            input{
+                width: 100%;
+                border-radius: 3px;
+                border: 1px solid #dbdbdb;     
+                padding-left: 12px;
+                height: 50px;
+                background: transparent;
+                margin-bottom: 20px;
+                color: white;
+                &::placeholder{
+                    color: white;
+                    font-weight: 300;
+                }
+                &.error{
+                    border: 1px solid #ff9595; 
+                    &::placeholder{
+                        color: #ff9595;
+                    }
+                }
+            }
+        }
+        &-btn{
+            width: 100%;
+        }
+    }
+
+}
