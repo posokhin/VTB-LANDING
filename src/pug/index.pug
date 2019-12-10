@@ -20,206 +20,234 @@ html(lang="en")
                 .container
                     .block1__top
                         img(src="img/logo-white.svg", alt="").logo
-                        h1.block1__title Откройте расчетный счет в Банке, который завтра не закроется
-                        .block1__desc 550 млрд. рублей потеряли юрлица из-за отзыва лицензий у банков. ВТБ — один из двух крупнейших банков страны с государственным участием. Он полностью защищен от отзыва лицензии
-                        a(href="").btn.btn-blue.block1__btn.js-open-popap Оставить заявку
+                        h1.block1__title Откройте счет<br> для бизнеса за 0 рублей<br> в надежном Банке
+                        .block1__desc Более 500 000 российских предпринимателей пользуются продуктами и услугами ВТБ, доверяя финансовой экспертизе Банка
+                        a(href="").btn.btn-red.block1__btn.js-open-popap Оставить заявку
                     ul.block1__list.flex-wrap
-                        li.block1__item
-                            img(src="img/b1/1.svg", alt="")
-                            span Надежно
-                            p Банк с государственным участием и гарантией с 1990 года
-                        li.block1__item
-                            img(src="img/b1/2.svg", alt="")
-                            span Безопасно
-                            p Один из двух крупнейших банков страны полностью защищен от риска отзыва лицензии
-                        li.block1__item
-                            img(src="img/b1/3.svg", alt="")
-                            span.non-line Стабильно
+                        li.block1__item(data-aos="fade-left")
+                            object(data="img/sprite.svg#b1--1", type="image/svg+xml")
+                            span Стабильно
+                                i.i-arrow--long
                             p Входим в список системно значимых кредитных организаций
+                            i.i-arrow--down
+                        li.block1__item(data-aos="fade-left")
+                            object(data="img/sprite.svg#b1--2", type="image/svg+xml")
+                            span Безопасно
+                                i.i-arrow--long
+                            p 836 отделений обслуживают юридических лиц лицензии
+                            i.i-arrow--down
+                        li.block1__item(data-aos="fade-left")
+                            object(data="img/sprite.svg#b1--3", type="image/svg+xml")
+                            span.non-line Надежно
+                            p 100 млрд. руб. кредитов предоставлено в рамках программ господдержки
+                            i.i-arrow--down
             .block2
                 .block2__top
                     .block2__top-txt
                         .num 500
                         p 
-                            b тысяч 
-                            | бухгалтеров в малых и средних компаниях по всей стране доверяют ВТБ
+                            span тысяч малых и средних компаний 
+                            | из разных отраслей по всей стране доверяют ВТБ
                 .block2__middle
                     .container
-                        h2 Работайте с банком, который 
-                            span подстраивается под вашу бухгалтерию
+                        h2 Работайте с умным Банком, который <br> понимает Вашу компанию
                         ul.block2__middle-list
-                            li.block2__middle-item
+                            li.block2__middle-item(data-aos="fade-in")
                                 .block2__middle-item-num 1
                                 .block2__middle-item-txt.flex-wrap
-                                    .block2__middle-item-txt-title Переводите денежные средства без лишних бумаг
-                                    .line
+                                    .block2__middle-item-txt-title Переводите денежные средства быстро
+                                    i.i-arrow--black
                                     .block2__middle-item-txt-desc Не тратьте время на оформление лишних документов для банковских переводов. С нами Вы сделаете перевод в пару кликов за 5 минут
-                            li.block2__middle-item
+                            li.block2__middle-item(data-aos="fade-in")
                                 .block2__middle-item-num 2
                                 .block2__middle-item-txt.flex-wrap
-                                    .block2__middle-item-txt-title Работайте так, как вы привыкли
-                                    .line
+                                    .block2__middle-item-txt-title Работайте как вам удобно
+                                    i.i-arrow--black
                                     .block2__middle-item-txt-desc Все операции Вы будете совершать непосредственно из Вашей бухгалтерской программы
-                            li.block2__middle-item
+                            li.block2__middle-item(data-aos="fade-in")
                                 .block2__middle-item-num 3
                                 .block2__middle-item-txt.flex-wrap
-                                    .block2__middle-item-txt-title Совершайте платежи и банковские операции до 23:00
-                                    .line
+                                    .block2__middle-item-txt-title Совершайте платежи Клиентам Банка до 23:00
+                                    i.i-arrow--black
                                     .block2__middle-item-txt-desc Продолжительный платежный день и быстрое зачисление средств на счет позволят Вам не думать о технических ограничениях
-                        a(href="").btn.btn-blue.btn-center.block2__btn.js-open-popap Узнать подробнее
-                        .block2__top-txt
-                            .num 20
-                            p 
-                                b тысяч 
-                                | крупных корпоративных клиентов пользуются услугами банка
+                        a(href="").btn.btn-red.btn-center.block2__btn.js-open-popap Узнать подробнее
                 .block2__bottom 
-                    img(src="img/block2-bottom-back.png", alt="").background
                     .container
-                        h2 Получите преимущества работы 
-                            span с надежным банком 
+                        h2 Получите преимущества работы с надежным банком 
                         ul.block2__bottom-list.flex-wrap
-                            li.block2__bottom-item
-                                .block2__bottom-item-icon
-                                    img(src="img/b2/1.svg", alt="")
-                                .block2__bottom-item-title Сохранность средств бизнеса
-                                p.block2__bottom-item-desc Предоставление гарантии возврата аванса или платежей на выгодных условиях
-                            li.block2__bottom-item
-                                .block2__bottom-item-icon
-                                    img(src="img/b2/2.svg", alt="")
-                                .block2__bottom-item-title Профессиональная поддержка 24/7
-                                p.block2__bottom-item-desc Круглосуточная клиентская поддержка: по телефону и онлайн
-                            li.block2__bottom-item
-                                .block2__bottom-item-icon
-                                    img(src="img/b2/3.svg", alt="")
-                                .block2__bottom-item-title 836 отделений по всей России и зарубежом
-                                p.block2__bottom-item-desc Развитая филиальная сеть, офисы банка всегда рядом с Вами
-                            li.block2__bottom-item.block2__bottom-item-btn
-                                a(href="").btn.btn-blue.block2__btn.js-open-popap Узнать подробнее
+                            li.block2__bottom-item(data-aos="fade-in")
+                                .block2__bottom-item-inner
+                                    .block2__bottom-item-icon
+                                        object(data="img/sprite.svg#b2--1", type="image/svg+xml")
+                                    .block2__bottom-item-title Сохранность средств бизнеса
+                                    p.block2__bottom-item-desc Предоставление гарантии возврата аванса или платежей на выгодных условиях
+                            li.block2__bottom-item(data-aos="fade-in")
+                                .block2__bottom-item-inner
+                                    .block2__bottom-item-icon
+                                        object(data="img/sprite.svg#b2--2", type="image/svg+xml")
+                                    .block2__bottom-item-title Круглосуточная профессиональная поддержка
+                                    p.block2__bottom-item-desc Круглосуточная клиентская поддержка: по телефону и онлайн
+                            li.block2__bottom-item(data-aos="fade-in")
+                                .block2__bottom-item-inner
+                                    .block2__bottom-item-icon
+                                        object(data="img/sprite.svg#b2--3", type="image/svg+xml")
+                                    .block2__bottom-item-title 836 отделений по всей России
+                                    p.block2__bottom-item-desc Развитая филиальная сеть, офисы банка всегда рядом с Вами
+            .block4__bottom
+                    .container
+                        h2 Выгодные пакеты услуг для бухгалтера
+                        ul.block4__bottom-list.flex-wrap
+                            li.block4__bottom-item(data-aos="fade-up")
+                                .block4__bottom-item-inner
+                                    .block4__bottom-item-top.flex-wrap.aic.jcsb
+                                        .block4__bottom-item-title На старте
+                                        .block4__bottom-item-mark Новинка
+                                        .block4__bottom-item-desc Молодым инициативным компаниям
+                                    .block4__bottom-item-middle
+                                        .block4__bottom-item-price
+                                            span.price-month Стоимость 12 месяцев
+                                            span.price-value 0₽ 
+                                        ul.block4__bottom-item-characteristics
+                                            li.block4__bottom-item-characteristics-item
+                                                span Обслуживание карты
+                                                span Бесплатно
+                                            li.block4__bottom-item-characteristics-item
+                                                span платежи <br> клиентам ВТБ
+                                                span Без ограничений
+                                            li.block4__bottom-item-characteristics-item
+                                                span платежи <br> клиентам других банков
+                                                span 5 шт. / мес.
+                                        a(href="").btn.btn-ghost.js-open-popap Открыть счет
+                            li.block4__bottom-item(data-aos="fade-up")
+                                .block4__bottom-item-inner
+                                    .block4__bottom-item-top.flex-wrap.aic.jcsb
+                                        .block4__bottom-item-title Самое важное
+                                        .block4__bottom-item-desc для активно растущих компаний
+                                    .block4__bottom-item-middle
+                                        .block4__bottom-item-price
+                                            span.price-month Стоимость 3 месяцев
+                                            span.price-value 0₽ 
+                                            span.price-old 1200₽
+                                        ul.block4__bottom-item-characteristics
+                                            li.block4__bottom-item-characteristics-item
+                                                span Обслуживание карты
+                                                span Бесплатно
+                                            li.block4__bottom-item-characteristics-item
+                                                span платежи <br> клиентам ВТБ
+                                                span Без ограничений
+                                            li.block4__bottom-item-characteristics-item
+                                                span платежи <br> клиентам других банков
+                                                span 30 шт. / мес.
+                                            li.block4__bottom-item-characteristics-item
+                                                span внесение<br> наличных в месяц
+                                                span 50 000 ₽
+                                        a(href="").btn.btn-ghost.js-open-popap Открыть счет
+                            li.block4__bottom-item(data-aos="fade-up")
+                                .block4__bottom-item-inner
+                                    .block4__bottom-item-top.flex-wrap.aic.jcsb
+                                        .block4__bottom-item-title Всё включено
+                                        .block4__bottom-item-mark.block4__bottom-item-mark--round Хит
+                                        .block4__bottom-item-desc для стабильно развивающегося бизнеса
+                                    .block4__bottom-item-middle
+                                        .block4__bottom-item-price
+                                            span.price-month Стоимость 3 месяцев
+                                            span.price-value 0₽ 
+                                            span.price-old 1900₽
+                                        ul.block4__bottom-item-characteristics
+                                            li.block4__bottom-item-characteristics-item
+                                                span Обслуживание карты
+                                                span Бесплатно
+                                            li.block4__bottom-item-characteristics-item
+                                                span платежи <br> клиентам ВТБ
+                                                span Без ограничений
+                                            li.block4__bottom-item-characteristics-item
+                                                span платежи <br> клиентам других банков
+                                                span 60 шт. / мес.
+                                            li.block4__bottom-item-characteristics-item
+                                                span внесение<br> наличных в месяц
+                                                span 250 000 ₽
+                                        a(href="").btn.btn-ghost.js-open-popap Открыть счет
+                            li.block4__bottom-item(data-aos="fade-up")
+                                .block4__bottom-item-inner
+                                    .block4__bottom-item-top.flex-wrap.aic.jcsb
+                                        .block4__bottom-item-title Большие обороты
+                                        .block4__bottom-item-desc для стабильно развивающегося бизнеса
+                                    .block4__bottom-item-middle
+                                        .block4__bottom-item-price
+                                            span.price-month Стоимость за месяц
+                                            span.price-value 0₽ 
+                                            span.price-old 7000₽
+                                        ul.block4__bottom-item-characteristics
+                                            li.block4__bottom-item-characteristics-item
+                                                span Обслуживание карты
+                                                span Бесплатно
+                                            li.block4__bottom-item-characteristics-item
+                                                span платежи <br> клиентам ВТБ
+                                                span Без ограничений
+                                            li.block4__bottom-item-characteristics-item
+                                                span платежи <br> клиентам других банков
+                                                span 150 шт. / мес.
+                                            li.block4__bottom-item-characteristics-item
+                                                span внесение<br> наличных в месяц
+                                                span 750 000 ₽
+                                            li.block4__bottom-item-characteristics-item
+                                                span Снятие наличных<br> в месяц
+                                                span 300 000 ₽
+                                        a(href="").btn.btn-ghost.js-open-popap Открыть счет
             .block3
-                .container
-                    .block3__row.flex-wrap
-                        .block3__left
-                            h2.block3__left-title Перейдите на расчетно кассовое обслуживание в ВТБ
-                            p.block3__left-desc Оставьте заявку и уже через 24 часа у вас будет расчетный счет
-                        .block3__right
-                            form(action="").block3__form
-                                span Наш менеджер перезвонит вам в течение 15 минут
-                                .block3__form-fields
-                                    input.error(type="text" placeholder="Имя" name="name")
-                                    input(type="text" placeholder="ИНН компании" name="inn")
-                                    input(type="text" placeholder="Телефон" name="phone" data-phone)
-                                    button(type="submit").btn.btn-blue.block3__form-btn Заказать звонок
-                        .block3__success.block3__right
-                            img(src="img/clock-white.svg", alt="")
-                            p ИМЯ, Ваша заявка принята. В течение 15 минут мы свяжемся с Вами. Спасибо, что выбираете ВТБ! 
-                            a(href="") Отправить еще одну заявку?
+                .block3__row.flex-wrap
+                    .block3__left
+                        h2.block3__left-title Перейдите на расчетно кассовое обслуживание в ВТБ
+                        p.block3__left-desc Оставьте заявку и получите предложение.<br>Наш менеджер перезвонит Вам в течение 15 минут
+                    .block3__right
+                        form(action="").block3__form(data-aos="fade-up")
+                            .block3__form-fields
+                                input(type="text" placeholder="Имя" name="name")
+                                input(type="text" placeholder="ИНН компании" name="inn")
+                                input(type="text" placeholder="Телефон" name="phone" data-phone)
+                                button(type="submit").btn.btn-red.block3__form-btn Заказать звонок
+                                span Нажав на кнопку «Заказать звонок» Вы подтверждаете согласие c условиями обработки персональных данных
+                    .block3__success.block3__right
+                        img(src="img/clock-white.svg", alt="")
+                        p ИМЯ, Ваша заявка принята. В течение 15 минут мы свяжемся с Вами. Спасибо, что выбираете ВТБ! 
+                        a(href="") Отправить еще одну заявку?
                         
             .block4
+                .block4__middle
+                    .container
+                        .block4__middle-row.flex-wrap
+                            .block4__middle-left
+                                h2 Совершайте банковские операции быстро и без проблем
+                                .block4__middle-left-desc Увеличенный платежный день и быстрое зачисление средств на счет позволят Вам не думать о технических ограничениях
+                                a(href="").btn.btn-blue.btn-blue--dark.js-open-popap Узнать подробнее
+                            ul.block4__middle-list.flex-wrap
+                                li.block4__middle-item(data-aos="fade-up-left")
+                                    .block4__middle-item-icon
+                                        object(data="img/sprite.svg#b4--1", type="image/svg+xml")
+                                    .block4__middle-item-desc Зачисление средств «день в день»
+                                li.block4__middle-item(data-aos="fade-up-right")
+                                    .block4__middle-item-icon
+                                        object(data="img/sprite.svg#b4--2", type="image/svg+xml")
+                                    .block4__middle-item-desc Обслуживание Бесплатно
+                                li.block4__middle-item(data-aos="fade-down-left")
+                                    .block4__middle-item-icon
+                                        object(data="img/sprite.svg#b4--3", type="image/svg+xml")
+                                    .block4__middle-item-desc Коррекция и отмена проведенных операций
+                                li.block4__middle-item(data-aos="fade-down-right")
+                                    .block4__middle-item-icon
+                                        object(data="img/sprite.svg#b4--4", type="image/svg+xml")
+                                    .block4__middle-item-desc Удобный клиент-банк. Отслеживание баланса в режиме реального времени
                 .block4__top
                     .container
                         .flex-wrap
                             .block4__top-img
                                 img(src="img/logo-blue.svg", alt="")
                             p 
-                                span стал первым 
-                                | финансировать малый и средний бизнес по программе стимулирования кредитования субъектов МСП
-                .block4__middle
-                    img(src="img/horse.png", alt="").horse
-                    img(src="img/b4-bottom-back.png", alt="").bottom-back
-                    .container
-                        .block4__middle-row.flex-wrap
-                            .block4__middle-left
-                                h2 Совершайте банковские операции быстро и без проблем
-                                .block4__middle-left-desc Увеличенный платежный день и быстрое зачисление средств на счет позволят Вам не думать о технических ограничениях
-                                a(href="").btn.btn-blue.js-open-popap Узнать больше
-                            ul.block4__middle-list.flex-wrap
-                                li.block4__middle-item
-                                    .block4__middle-item-icon
-                                        img(src="img/b4/1.svg", alt="")
-                                    .block4__middle-item-desc Зачисление средств «день в день»
-                                li.block4__middle-item
-                                    .block4__middle-item-icon
-                                        img(src="img/b4/2.svg", alt="")
-                                    .block4__middle-item-desc Проведение срочных рублевых платежей, до 900 000 руб.
-                                li.block4__middle-item
-                                    .block4__middle-item-icon
-                                        img(src="img/b4/3.svg", alt="")
-                                    .block4__middle-item-desc Коррекция и отмена проведенных операций
-                                li.block4__middle-item
-                                    .block4__middle-item-icon
-                                        img(src="img/b4/4.svg", alt="")
-                                    .block4__middle-item-desc Удобный клиент-банк. Отслеживание баланса в режиме реального времени
-                .block4__bottom
-                    .container
-                        h2 Выгодные пакеты услуг для 
-                            span бухгалтера
-                        ul.block4__bottom-list.flex-wrap
-                            li.block4__bottom-item
-                                .block4__bottom-item-inner
-                                    .block4__bottom-item-title На старте
-                                    .block4__bottom-item-desc Молодым инициативным компаниям
-                                    .block4__bottom-item-price
-                                        span.price-month Стоимость в месяц
-                                        span.price-value 0₽ 
-                                    ul.block4__bottom-item-characteristics
-                                        li.block4__bottom-item-characteristics-item
-                                            span Платежки клиентам ВТБ
-                                            span без ограничений
-                                        li.block4__bottom-item-characteristics-item
-                                            span Платежки других банков до 5 шт./мес.
-                                            span 0₽
-                                        li.block4__bottom-item-characteristics-item
-                                            span Внесение наличных
-                                            span 0,5% от суммы
-                                        li.block4__bottom-item-characteristics-item
-                                            span Интрнет-банк
-                                            span 0₽
-                                    a(href="").btn.btn-ghost.js-open-popap Выбрать тариф
-                            li.block4__bottom-item
-                                .block4__bottom-item-inner
-                                    .block4__bottom-item-title Самое важное
-                                    .block4__bottom-item-desc Активно растущим
-                                    .block4__bottom-item-price
-                                        span.price-month Стоимость в месяц
-                                        span.price-value 1020₽ 
-                                    ul.block4__bottom-item-characteristics
-                                        li.block4__bottom-item-characteristics-item
-                                            span Платежки клиентам ВТБ
-                                            span без ограничений
-                                        li.block4__bottom-item-characteristics-item
-                                            span Платежки других банков до 30 шт./мес.
-                                            span 0₽
-                                        li.block4__bottom-item-characteristics-item
-                                            span Внесение наличных до 50 000 ₽/мес.
-                                            span 0₽
-                                        li.block4__bottom-item-characteristics-item
-                                            span Интрнет-банк
-                                            span 0₽
-                                    a(href="").btn.btn-ghost.js-open-popap Выбрать тариф
-                            li.block4__bottom-item
-                                .block4__bottom-item-inner
-                                    .block4__bottom-item-title Все включено
-                                    .block4__bottom-item-desc Стабильно развивающимся
-                                    .block4__bottom-item-price
-                                        span.price-month Стоимость в месяц
-                                        span.price-value 1615₽ 
-                                    ul.block4__bottom-item-characteristics
-                                        li.block4__bottom-item-characteristics-item
-                                            span Платежки клиентам ВТБ
-                                            span без ограничений
-                                        li.block4__bottom-item-characteristics-item
-                                            span Платежки других банков до 30 шт./мес.
-                                            span 0₽
-                                        li.block4__bottom-item-characteristics-item
-                                            span Внесение наличных до 250 000 ₽/мес.
-                                            span 0₽
-                                        li.block4__bottom-item-characteristics-item
-                                            span Интрнет-банк
-                                            span 0₽
-                                    a(href="").btn.btn-ghost.js-open-popap Выбрать тариф
+                                span 100 млрд руб. кредитов 
+                                | представлено в рамках программ государственной поддержки
             footer.footer
                 .container
-                    .footer__feedback
+                    //.footer__feedback
                         h2 Закажите обратный звонок, <br> и мы свяжемся с вами в течение 15 минут
                         .footer__feedback-desc Проконсультируйтесь с нашими специалистами по индивидуальным условиям подключения РКО
                         form(action="").footer__feedback-form
@@ -234,12 +262,36 @@ html(lang="en")
                                     label(for="") ТЕЛЕФОН
                                     input(type="text" name="phone" data-phone)
                                 .footer__feedback-fields-item
-                                    button(type="submit").btn.btn-blue Заказать звонок
+                                    button(type="submit").btn.btn-red Заказать звонок
                         .footer__feedback-success
                             p ИМЯ, Ваша заявка принята. В течение 15 минут мы свяжемся с Вами. Спасибо, что выбираете ВТБ! 
                             a(href="") Отправить еще одну заявку?
+                    .footer__top.flex-wrap.jcsb
+                        .footer__top-desc 
+                            p 190000, г. Санкт-Петербург, ул. Большая Морская, д. 29 Генеральная лицензия Банка России №1000<br>Ⓒ ВТБ, 2019
+                        .footer__social
+                            .social
+                                ul.social__list.flex-inline.aic
+                                    li.social__item
+                                        a(href="")
+                                            i.i-inst
+                                    li.social__item
+                                        a(href="")
+                                            i.i-fb
+                                    li.social__item
+                                        a(href="")
+                                            i.i-youtube
+                                    li.social__item
+                                        a(href="")
+                                            i.i-vk
+                                    li.social__item
+                                        a(href="")
+                                            i.i-tw
+                                    li.social__item
+                                        a(href="")
+                                            i.i-ok
                     .footer__bottom
-                        p © Медиагруппа Актион-МЦФЭР, 2019. © ООО «Медиа Трейд», 2019
+                        p © Медиагруппа Актион-МЦФЭР, 2019. © ООО «ВП.РУ», 2019
                         .footer__bottom-links
                             a(href="") Условия использования     
                             a(href="") Политика обработки персональных данных
@@ -252,7 +304,7 @@ html(lang="en")
                     input(type="text" name="name" placeholder="Имя").error
                     input(type="text" name="inn" placeholder="ИНН компании")
                     input(type="text" name="phone" data-phone placeholder="Телефон")
-                    button(type="submit").btn.btn-blue Заказать звонок
+                    button(type="submit").btn.btn-red Заказать звонок
             .popap-success
                 .close
                     span
@@ -269,4 +321,5 @@ html(lang="en")
                             a(href="").btn.btn-blue Понятно
         script(src="js/jquery.min.js")
         script(src="js/imask.min.js")
+        script(src="js/aos.js")
         script(src="js/main.js")

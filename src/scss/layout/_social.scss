@@ -1,0 +1,13 @@
+.social{
+    &__item{
+        margin-right: 30px;
+        &:last-child{
+            margin-right: 0;
+        }
+        a{
+            width: 24px;
+            height: 24px;
+            display: block;
+        }
+    }
+}

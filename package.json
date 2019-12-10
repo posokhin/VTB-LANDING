@@ -12,6 +12,7 @@
   "license": "ISC",
   "devDependencies": {
     "animate.css": "^3.7.0",
+    "aos": "^3.0.0-beta.6",
     "browser-sync": "^2.26.3",
     "gulp": "^4.0.0",
     "gulp-autoprefixer": "^6.0.0",
@@ -22,6 +23,8 @@
     "gulp-postcss": "^8.0.0",
     "gulp-pug": "^4.0.1",
     "gulp-sass": "^4.0.2",
+    "gulp-svg-sprite": "^1.5.0",
+    "gulp-tinypng": "^1.0.2",
     "gulp-uncss": "^1.0.6",
     "gulp-watch": "^5.0.1",
     "imask": "^5.2.1",

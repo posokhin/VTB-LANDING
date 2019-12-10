@@ -1,0 +1,81 @@
+.i{
+    display: block;
+    &-arrow{
+        &--long{
+            background: url("img/icon/arrow-long.svg") no-repeat center/contain;
+            height: 11px;
+            width: 100%;
+        }
+        &--black{
+            background: url("img/icon/arrow-black.svg") no-repeat center/contain;
+            height: 11px;
+            width: 100%;
+        }
+        &--down{
+            display: block;
+            width: 2px;
+            height: 100px;
+            margin: 0 auto;
+            background-color: white;
+            position: relative;
+            &::before{
+                content: "";
+                display: block;
+                width: 16px;
+                height: 2px;
+                background-color: white;
+                transform: rotate(-45deg);
+                position: absolute;
+                bottom: 4px;
+                left: -2px;
+            }
+            &::after{
+                content: "";
+                display: block;
+                width: 16px;
+                height: 2px;
+                background-color: white;
+                transform: rotate(45deg);
+                position: absolute;
+                bottom: 4px;
+                left: -12px;
+            }
+        }
+    }
+    &-inst{
+        display: block;
+        background: url("img/icon/inst.svg") no-repeat center/contain;
+        width: 100%;
+        height: 100%;
+    }
+    &-fb{
+        display: block;
+        background: url("img/icon/fb.svg") no-repeat center/contain;
+        width: 100%;
+        height: 100%;
+    }
+    &-youtube{
+        display: block;
+        background: url("img/icon/youtube.svg") no-repeat center/contain;
+        width: 100%;
+        height: 100%;
+    }
+    &-vk{
+        display: block;
+        background: url("img/icon/vk.svg") no-repeat center/contain;
+        width: 100%;
+        height: 100%;
+    }
+    &-tw{
+        display: block;
+        background: url("img/icon/tw.svg") no-repeat center/contain;
+        width: 100%;
+        height: 100%;
+    }
+    &-ok{
+        display: block;
+        background: url("img/icon/ok.svg") no-repeat center/contain;
+        width: 100%;
+        height: 100%;
+    }
+}

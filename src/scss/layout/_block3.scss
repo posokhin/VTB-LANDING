@@ -1,11 +1,21 @@
 .block3{
-    background-color: #002882;
-    padding: 60px 0;
     color: white;
+    &__row{
+        background-color: #0a2896;
+        padding: 50px 70px 0;
+        max-width: 1270px;
+        margin: 0 auto;
+        @include media(1100){
+            padding: 50px 40px;
+        }
+        @include media(768){
+            padding: 30px 15px;
+        }
+    }
     &__left{
         width: 50%;
-        padding: 0 40px 0 0;
-        @include media(768){
+        padding: 50px 40px 0 0;
+        @include media(1000){
             width: 100%;
             padding: 0;
             margin-bottom: 20px;
@@ -13,9 +23,9 @@
         &-title{
             font-size: 45px;
             font-weight: 300;
-            line-height: 55px;    
+            line-height: 1.22;    
             margin-bottom: 30px;   
-            max-width: 470px; 
+            max-width: 526px; 
             @include media(1000){
                 font-size: 30px;
                 line-height: normal;
@@ -28,8 +38,8 @@
         &-desc{
             font-size: 20px;
             font-weight: 300;
-            line-height: 30px;   
-            max-width: 360px;  
+            line-height: 1.5;   
+            max-width: 400px;  
             @include media(768){
                 font-size: 16px;
                 line-height: normal;
@@ -37,13 +47,9 @@
         }
     }
     &__right{
-        margin-top: 70px;
         width: 50%;
-        padding: 0 0 0 40px;  
+        padding: 50px 0 0 40px;
         @include media(1000){
-            margin-top: 0;
-        }
-        @include media(768){
             width: 100%;
             padding: 0;
         }
@@ -72,6 +78,11 @@
         }
     }
     &__form{
+        background: white;
+        padding: 50px 70px 20px;
+        @include media(768){
+            padding: 30px;
+        }
         span{
             display: block;
             font-size: 20px;
@@ -83,17 +94,18 @@
             }  
         }
         &-fields{
+            color: #2f3441;
             input{
                 width: 100%;
-                border-radius: 3px;
-                border: 1px solid #dbdbdb;     
+                font-size: 18px;
+                border: 0;
+                border-bottom: solid 1px #979797;    
                 padding-left: 12px;
                 height: 50px;
                 background: transparent;
-                margin-bottom: 20px;
-                color: white;
+                margin-bottom: 24px;
                 &::placeholder{
-                    color: white;
+                    color: #2f3441;
                     font-weight: 300;
                 }
                 &.error{
@@ -103,9 +115,17 @@
                     }
                 }
             }
+            span {
+                font-size: 14px;
+                line-height: 1.64;
+                color: #2f3441;
+                max-width: 400px;
+                margin-top: 7px;
+            }
         }
         &-btn{
             width: 100%;
+            margin-top: 8px;
         }
     }
 

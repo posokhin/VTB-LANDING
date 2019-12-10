@@ -1,1 +1,14 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="55" height="71" viewBox="0 0 55 71"><g><g><path fill="none" stroke="#002882" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="50" stroke-width="2.25" d="M53 33.86v0-19.403C31.875 14.457 27 2 27 2v0S22.126 14.457 1 14.457v19.402S.594 53.46 27 70c26.406-16.54 26-36.14 26-36.14z"/></g></g></svg>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="56px" height="72px" viewBox="0 0 56 72" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>prctc</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g id="VTB_ok" transform="translate(-192.000000, -2321.000000)" stroke-width="2.25">
+            <g id="prctc" transform="translate(194.000000, 2323.000000)">
+                <path d="M51.999638,31.859226 L51.999638,12.4566748 C30.8751098,12.4566748 26.0004062,0 26.0004062,0 C26.0004062,0 21.1257026,12.4566748 0.000361930766,12.4566748 L0.000361930766,31.859226 C0.000361930766,31.859226 -0.405863372,51.4594374 26.0004062,68 C52.4058634,51.4594374 51.999638,31.859226 51.999638,31.859226 Z" id="prtct-copy" stroke="#0A2896"></path>
+                <path d="M42.9997633,32.5518293 L42.9997633,19.4265741 C29.1875718,19.4265741 26.0002656,11 26.0002656,11 C26.0002656,11 22.8129594,19.4265741 9.00023665,19.4265741 L9.00023665,32.5518293 C9.00023665,32.5518293 8.7346278,45.8107959 26.0002656,57 C43.2653722,45.8107959 42.9997633,32.5518293 42.9997633,32.5518293 Z" id="prtct-copy" stroke="#00AAFF"></path>
+            </g>
+        </g>
+    </g>
+</svg>

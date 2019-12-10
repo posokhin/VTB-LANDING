@@ -7,7 +7,7 @@ let gulp = require('gulp'),
     pug = require('gulp-pug'),
     cleanCSS = require('gulp-clean-css'),
     gcmq = require('gulp-group-css-media-queries'),
-    cssnano = require('gulp-cssnano');
+    svgSprite = require('gulp-svg-sprite');
     
     
 
@@ -46,7 +46,7 @@ gulp.task('concat', function() {
 
 
 gulp.task('pug', function() {
-    return gulp.src('./src/pug/**/*.pug')
+    return gulp.src('./src/pug/*.pug')
     .pipe(pug({
         pretty: true
     }))
@@ -57,7 +57,7 @@ gulp.task('pug', function() {
 });
 
 /* js */
-jsFiles = ['./node_modules/jquery/dist/jquery.min.js', './node_modules/imask/dist/imask.min.js', './node_modules/wow.js/dist/wow.min.js', './src/js/main.js'];
+jsFiles = ['./node_modules/jquery/dist/jquery.min.js', './node_modules/imask/dist/imask.min.js','./src/js/main.js'];
 gulp.task('js', function () {
     return gulp.src(jsFiles)
         .pipe(gulp.dest('./public/js/'))
@@ -67,3 +67,18 @@ gulp.task('js', function () {
 });
 
 /* end js */
+
+/* svg-sprite */
+gulp.task('svgSprite', function () {
+    return gulp.src('./public/img/**/*.svg') // svg files for sprite
+    .pipe(svgSprite({
+            mode: {
+                stack: {
+                    sprite: "sprite.svg"  //sprite file name
+                }
+            },
+        }
+    ))
+    .pipe(gulp.dest('./public/img/sprite/'));
+});
+/* svg-sprite end */

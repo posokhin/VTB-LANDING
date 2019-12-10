@@ -1,8 +1,11 @@
 .block1{
     padding: 100px 0 70px;
     color: #ffffff;
-    background: url("img/block1-back.png") no-repeat center/cover, #002882;
-    background-blend-mode: multiply;
+    background: url("img/block1-back.png") no-repeat center/cover;
+    @include media(768){
+        padding: 50px 0;
+        background: #0a2896;
+    }
     &__top{
         margin-bottom: 80px;
     }
@@ -10,11 +13,13 @@
         margin-bottom: 50px;
     }
     &__title{
-        font-size: 50px;
+        font-size: 65px;
         font-weight: 700;
         line-height: 65px;  
         max-width: 675px;    
         margin-bottom: 30px;
+        font-family: $cond;
+        font-weight: normal;
         @include media(768){
             font-size: 30px;
             line-height: normal;
@@ -24,46 +29,65 @@
         }
     }
     &__desc{
-        font-size: 18px;
+        font-size: 20px;
         font-weight: 300;
         line-height: 29px;   
-        max-width: 675px;    
+        max-width: 500px;    
         margin-bottom: 30px; 
     }
     &__list{
-
+        @include media(768){
+            flex-direction: column;
+            align-items: center;
+        }
     }
     &__item{
         width: 33%;
         padding: 0 15px;
         font-size: 20px;
+        position: relative;
+        .i-arrow--down{
+            display: none;
+        }
         @include media(768){
-            width: 100%;
-            max-width: 400px;
-            margin: 0 auto 50px auto;
+            text-align: center;
+            width: auto;
             padding: 0;
+            &:last-child{
+                margin-bottom: 0;
+                .i-arrow--down{
+                    display: none;
+                }
+            }
+            .i-arrow--down{
+                display: block;
+                margin: 50px auto;
+            }
             span{
                 &::after{
                     display: none;
                 }
             }
         }
-        img{
+        object{
             margin-bottom: 16px;
-            width: 70px;
-            height: 70px;
+            width: 80px;
+            height: 80px;
         }
         span{
             display: flex;
             align-items: center; 
             margin-bottom: 20px;
-            &::after{
-                content: "";
+            font-weight: bold;
+            @include media(768){
+                text-align: center;
                 display: block;
-                width: 100%;
-                height: 1px;
-                background: white;
-                margin-left: 30px;
+                i{
+                    display: none;
+                }
+            }
+            i{
+                margin-left: 10px;
             }
             &.non-line{
                 &::after{
@@ -74,7 +98,7 @@
         p{
             font-weight: 300;
             line-height: 30px;
-            max-width: 345px;
+            max-width: 250px;
         }
     }
 }

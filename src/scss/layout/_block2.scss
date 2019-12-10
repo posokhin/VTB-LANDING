@@ -1,11 +1,10 @@
 .block2{
     h2{
-        /* font-family: "Proxima Nova - Regular"; */
         color: #2d3039;  
         font-size: 45px;
         font-weight: 300;
-        line-height: 45px;    
-        max-width: 774px;   
+        line-height: 1.22;    
+        max-width: 880px;   
         span{
             color: #002882;
         }
@@ -20,17 +19,15 @@
         }
     }
     &__top{
-        background: url("img/b2-top-back.png") no-repeat center/cover;
-        height: 650px;
         position: relative;
         display: flex;
         justify-content: center;
         @include media(768){
-            height: 350px;
+            height: auto;
         }
         
         &-txt{
-            margin: 60px auto 0 auto;
+            margin: 60px auto 60px auto;
             max-width: 843px;
             text-align: center;
             
@@ -41,21 +38,24 @@
             @include media(628){
                 text-align: left;
                 max-width: 600px;
+                padding: 0 15px;
+                margin: 50px 0;
             }
             .num{
-                color: #002882;
+                color: #00aaff;
                 font-size: 11vmax;
-                font-weight: 100;   
+                font-weight: 300;
                 display: inline-block;
                 vertical-align: middle;
+                font-family: $cond;
             }
             p{
                 text-align: left;
                 max-width: 416px; 
-                font-size: 30px;
+                font-size: 26px;
                 font-weight: 300;
                 line-height: 37px;
-                margin-left: 10px;
+                margin-left: 30px;
                 display: inline-block;
                 vertical-align: middle;
                 @include media(628){
@@ -65,9 +65,8 @@
                     font-size: 20px;
                     line-height: normal;
                 }
-                b{
-                    color: #002882;
-                    font-weight: 500;
+                span{
+                    color: #00aaff;
                 }
             }
         }
@@ -75,7 +74,7 @@
     &__middle{
         &-list{
             max-width: 841px;
-            margin: 20px auto 40px;
+            margin: 30px auto 40px;
         }
         &-item{
             opacity: 0;
@@ -84,33 +83,29 @@
                 margin-bottom: 0;
             }
             &-num{
-                color: #002882;/* 
-                font-family: "Proxima Nova Lt"; */
+                color: #00aaff;
                 font-size: 89px;
-                font-weight: 300;      
+                font-weight: 300;     
+                font-family: $cond; 
             }
             &-txt{
+                color: #2f3441;
                 margin: 0 -6px 0 -6px;
                 &-title{
                     display: flex;
-                    color: #002882;/* 
-                    font-family: "Proxima Nova Rg"; */
                     font-size: 20px;
-                    font-weight: 700;
-                    line-height: 30px;   
+                    line-height: 1.5;   
                     width: 40%;
                     padding: 0 6px;
                     @include media(768){
                         width: 100%;
                         margin-bottom: 10px;
+                        font-size: 18px;
                     }
                 }
-                .line{
+                i{
                     width: 10%;
-                    height: 1px;
-                    background: #002882;
-                    margin-top: 15px;
-                    padding: 0 6px;
+                    margin-top: 10px;
                     @include media(768){
                         display: none;
                     }
@@ -118,13 +113,14 @@
                 &-desc{
                     width: 50%;
                     padding: 0 6px;
-                    color: #2d3039;/* 
-                    font-family: "Proxima Nova - Regular"; */
+                    color: #2f3441;
                     font-size: 20px;
-                    font-weight: 300;
                     line-height: 30px;
                     @include media(768){
                         width: 100%;
+                        font-size: 16px;
+                        line-height: 20px;
+                        max-width: 500px;
                     }
                 }
             }
@@ -134,10 +130,17 @@
         max-width: 274px;
     }
     &__bottom{
+        margin: 80px 0;
         position: relative;
-        padding-bottom: 136px;
+        @include media(768){
+            margin: 50px 0;
+        }
         h2{
-            max-width: 575px;
+            text-align: center;
+            max-width: 680px;
+            margin: 0 auto 50px;
+            line-height: 1.22;
+            color: #2f3441;
             @include media(950){
                 margin-bottom: 30px;
             }
@@ -153,8 +156,10 @@
             }
         }
         &-list{
-            max-width: 740px; 
-            margin-left: auto;
+            margin: 0 -20px;
+            @include media(768){
+                margin: 0;
+            }
         }
         &-item{
             opacity: 0;
@@ -165,6 +170,13 @@
                 padding: 0;
                 margin-bottom: 30px;
             }
+            &-inner{
+                box-shadow: 0 3px 9px -8px rgba(0, 0, 0, 0.7);
+                border: solid 1px #e5e5e5;
+                background-color: #ffffff;
+                padding: 10%;
+                height: 100%;
+            }
             &-btn{
                 width: 100%;
                 margin-top: 40px;
@@ -172,21 +184,26 @@
             &-icon{
                 width: 70px;
                 height: 70px;
-                margin-bottom: 20px;
+                margin-bottom: 34px;
             }
             &-title{
-                color: #002882;
-                font-size: 18px;
+                color: #2f3441;
+                font-size: 20px;
                 font-weight: 700;
-                line-height: 25px;   
-                margin-bottom: 13px;     
+                line-height: 1.25;   
+                margin-bottom: 20px;   
+                height: 75px;
+                max-width: 180px;
+                @include media(768){
+                    height: auto;
+                }
             }
             &-desc{
-                color: #2d3039;/* 
-                font-family: "Proxima Nova - Regular"; */
+                color: #2f3441;
                 font-size: 16px;
                 font-weight: 300;
-                line-height: 25px;
+                line-height: 1.56;
+                max-width: 270px;
             }
         }
     }

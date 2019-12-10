@@ -14,26 +14,26 @@
         margin: 0 auto;
     }
     &-blue{
-        background-color: #00aaff;   
+        color: white; 
+        background-color: #00aaff;
+        &--dark{
+            background-color: #0a2896;
+        } 
+    }
+    &-red{
+        background-color: #e62632;   
         color: white;  
         &:hover{
-            background-color: #0278ff;
-        }
-        &:active{
-            background-color: #00aaff;   
+            background-color: lighten($color: #e62632, $amount: 5%);
         }
     }
     &-ghost{
-        border: 1px solid #00aaff;
-        color: #00aaff;
+        border: 1px solid #1e4bd2;
+        color: #1e4bd2;
         background: transparent;
         &:hover{
-            background-color: #00aaff;
+            background-color: #0a2896;
             color: white;
-        }
-        &:active{
-            background-color: transparent;
-            color: inherit;
         }
     }
 }

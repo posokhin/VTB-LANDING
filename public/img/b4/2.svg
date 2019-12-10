@@ -1,1 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="61" height="62" viewBox="0 0 61 62"><g><g><g><path fill="none" stroke="#002882" stroke-miterlimit="50" stroke-width="2" d="M9.64 52.213a29.154 29.154 0 0 0 41.72 0c11.52-11.715 11.52-30.71 0-42.427a29.155 29.155 0 0 0-41.72 0c-11.52 11.717-11.52 30.712 0 42.427z"/></g><g><path fill="none" stroke="#002882" stroke-miterlimit="50" stroke-width="2" d="M47.173 15.786a22.675 22.675 0 0 0-1.251-1.364c-8.712-8.75-22.837-8.75-31.548 0-4.543 4.563-6.717 10.604-6.522 16.58"/></g><g><path fill="none" stroke="#002882" stroke-miterlimit="50" stroke-width="2" d="M14.68 46.577a22.412 22.412 0 0 0 31.972 0c3.832-3.879 6-8.804 6.506-13.867"/></g><g><path fill="none" stroke="#002882" stroke-miterlimit="50" stroke-width="2" d="M25.368 18.14v25.714"/></g><g><path fill="none" stroke="#002882" stroke-miterlimit="50" stroke-width="2" d="M19.81 36.569h18.812"/></g><g><path fill="none" stroke="#002882" stroke-miterlimit="50" stroke-width="2" d="M25.05 18.14v0h8.732v0s6.55.429 6.55 6.43c0 5.999-6.55 6.427-6.55 6.427v0H19.81v0"/></g></g></g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="51" height="52" viewBox="0 0 51 52">
+    <g fill="none" fill-rule="evenodd" stroke-width="2">
+        <path stroke="#002882" d="M8.176 43.678a24.155 24.155 0 0 0 34.648 0c9.568-9.763 9.568-25.592 0-35.356a24.156 24.156 0 0 0-34.648 0c-9.568 9.764-9.568 25.593 0 35.356z"/>
+        <path stroke="#0AF" d="M21.24 15.286v21.428M16.623 30.643h15.623M20.975 15.286h7.252s5.44.357 5.44 5.357S28.227 26 28.227 26H16.623"/>
+    </g>
+</svg>

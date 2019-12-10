@@ -105,4 +105,201 @@
     font-weight: 900;
     font-style: normal;
 }
+/* vtb----------------------------------------------------------------------------------------------------- */
+@font-face {
+    font-family: 'VTB Group Extra';
+    src: url('fonts/vtb/VTBGroup-ExtraBold.eot');
+    src: local('VTB Group Extra Bold'), local('VTBGroup-ExtraBold'),
+        url('fonts/vtb/VTBGroup-ExtraBold.eot?#iefix') format('embedded-opentype'),
+        url('fonts/vtb/VTBGroup-ExtraBold.woff2') format('woff2'),
+        url('fonts/vtb/VTBGroup-ExtraBold.woff') format('woff'),
+        url('fonts/vtb/VTBGroup-ExtraBold.ttf') format('truetype'),
+        url('fonts/vtb/VTBGroup-ExtraBold.svg#VTBGroup-ExtraBold') format('svg');
+    font-weight: 800;
+    font-style: normal;
+}
 
+@font-face {
+    font-family: 'VTB Group';
+    src: url('fonts/vtb/VTBGroup-Bold.eot');
+    src: local('VTB Group Bold'), local('VTBGroup-Bold'),
+        url('fonts/vtb/VTBGroup-Bold.eot?#iefix') format('embedded-opentype'),
+        url('fonts/vtb/VTBGroup-Bold.woff2') format('woff2'),
+        url('fonts/vtb/VTBGroup-Bold.woff') format('woff'),
+        url('fonts/vtb/VTBGroup-Bold.ttf') format('truetype'),
+        url('fonts/vtb/VTBGroup-Bold.svg#VTBGroup-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'VTB Group Cond Demi';
+    src: url('fonts/vtb/VTBGroupCond-DemiBold.eot');
+    src: local('VTB Group Cond Demi Bold'), local('VTBGroupCond-DemiBold'),
+        url('fonts/vtb/VTBGroupCond-DemiBold.eot?#iefix') format('embedded-opentype'),
+        url('fonts/vtb/VTBGroupCond-DemiBold.woff2') format('woff2'),
+        url('fonts/vtb/VTBGroupCond-DemiBold.woff') format('woff'),
+        url('fonts/vtb/VTBGroupCond-DemiBold.ttf') format('truetype'),
+        url('fonts/vtb/VTBGroupCond-DemiBold.svg#VTBGroupCond-DemiBold') format('svg');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'VTB Group Cond Extra';
+    src: url('fonts/vtb/VTBGroupCond-ExtraBold.eot');
+    src: local('VTB Group Cond Extra Bold'), local('VTBGroupCond-ExtraBold'),
+        url('fonts/vtb/VTBGroupCond-ExtraBold.eot?#iefix') format('embedded-opentype'),
+        url('fonts/vtb/VTBGroupCond-ExtraBold.woff2') format('woff2'),
+        url('fonts/vtb/VTBGroupCond-ExtraBold.woff') format('woff'),
+        url('fonts/vtb/VTBGroupCond-ExtraBold.ttf') format('truetype'),
+        url('fonts/vtb/VTBGroupCond-ExtraBold.svg#VTBGroupCond-ExtraBold') format('svg');
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'VTB Group Demi';
+    src: url('fonts/vtb/VTBGroup-DemiBold.eot');
+    src: local('VTB Group Demi Bold'), local('VTBGroup-DemiBold'),
+        url('fonts/vtb/VTBGroup-DemiBold.eot?#iefix') format('embedded-opentype'),
+        url('fonts/vtb/VTBGroup-DemiBold.woff2') format('woff2'),
+        url('fonts/vtb/VTBGroup-DemiBold.woff') format('woff'),
+        url('fonts/vtb/VTBGroup-DemiBold.ttf') format('truetype'),
+        url('fonts/vtb/VTBGroup-DemiBold.svg#VTBGroup-DemiBold') format('svg');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'VTB Group Cond Book';
+    src: url('fonts/vtb/VTBGroupCond-Book.eot');
+    src: local('VTB Group Cond Book'), local('VTBGroupCond-Book'),
+        url('fonts/vtb/VTBGroupCond-Book.eot?#iefix') format('embedded-opentype'),
+        url('fonts/vtb/VTBGroupCond-Book.woff2') format('woff2'),
+        url('fonts/vtb/VTBGroupCond-Book.woff') format('woff'),
+        url('fonts/vtb/VTBGroupCond-Book.ttf') format('truetype'),
+        url('fonts/vtb/VTBGroupCond-Book.svg#VTBGroupCond-Book') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'VTB Group Book';
+    src: url('fonts/vtb/VTBGroup-BookOblique.eot');
+    src: local('VTB Group Book Oblique'), local('VTBGroup-BookOblique'),
+        url('fonts/vtb/VTBGroup-BookOblique.eot?#iefix') format('embedded-opentype'),
+        url('fonts/vtb/VTBGroup-BookOblique.woff2') format('woff2'),
+        url('fonts/vtb/VTBGroup-BookOblique.woff') format('woff'),
+        url('fonts/vtb/VTBGroup-BookOblique.ttf') format('truetype'),
+        url('fonts/vtb/VTBGroup-BookOblique.svg#VTBGroup-BookOblique') format('svg');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'VTB Group';
+    src: url('fonts/vtb/VTBGroup-LightOblique.eot');
+    src: local('VTB Group Light Oblique'), local('VTBGroup-LightOblique'),
+        url('fonts/vtb/VTBGroup-LightOblique.eot?#iefix') format('embedded-opentype'),
+        url('fonts/vtb/VTBGroup-LightOblique.woff2') format('woff2'),
+        url('fonts/vtb/VTBGroup-LightOblique.woff') format('woff'),
+        url('fonts/vtb/VTBGroup-LightOblique.ttf') format('truetype'),
+        url('fonts/vtb/VTBGroup-LightOblique.svg#VTBGroup-LightOblique') format('svg');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'VTB Group Extra';
+    src: url('fonts/vtb/VTBGroup-ExtraBoldOblique.eot');
+    src: local('VTB Group Extra Bold Oblique'), local('VTBGroup-ExtraBoldOblique'),
+        url('fonts/vtb/VTBGroup-ExtraBoldOblique.eot?#iefix') format('embedded-opentype'),
+        url('fonts/vtb/VTBGroup-ExtraBoldOblique.woff2') format('woff2'),
+        url('fonts/vtb/VTBGroup-ExtraBoldOblique.woff') format('woff'),
+        url('fonts/vtb/VTBGroup-ExtraBoldOblique.ttf') format('truetype'),
+        url('fonts/vtb/VTBGroup-ExtraBoldOblique.svg#VTBGroup-ExtraBoldOblique') format('svg');
+    font-weight: 800;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'VTB Group Demi';
+    src: url('fonts/vtb/VTBGroup-DemiBoldOblique.eot');
+    src: local('VTB Group Demi Bold Oblique'), local('VTBGroup-DemiBoldOblique'),
+        url('fonts/vtb/VTBGroup-DemiBoldOblique.eot?#iefix') format('embedded-opentype'),
+        url('fonts/vtb/VTBGroup-DemiBoldOblique.woff2') format('woff2'),
+        url('fonts/vtb/VTBGroup-DemiBoldOblique.woff') format('woff'),
+        url('fonts/vtb/VTBGroup-DemiBoldOblique.ttf') format('truetype'),
+        url('fonts/vtb/VTBGroup-DemiBoldOblique.svg#VTBGroup-DemiBoldOblique') format('svg');
+    font-weight: 600;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'VTB Group Book';
+    src: url('fonts/vtb/VTBGroup-Book.eot');
+    src: local('VTB Group Book'), local('VTBGroup-Book'),
+        url('fonts/vtb/VTBGroup-Book.eot?#iefix') format('embedded-opentype'),
+        url('fonts/vtb/VTBGroup-Book.woff2') format('woff2'),
+        url('fonts/vtb/VTBGroup-Book.woff') format('woff'),
+        url('fonts/vtb/VTBGroup-Book.ttf') format('truetype'),
+        url('fonts/vtb/VTBGroup-Book.svg#VTBGroup-Book') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'VTB Group Cond';
+    src: url('fonts/vtb/VTBGroupCond-Light.eot');
+    src: local('VTB Group Cond Light'), local('VTBGroupCond-Light'),
+        url('fonts/vtb/VTBGroupCond-Light.eot?#iefix') format('embedded-opentype'),
+        url('fonts/vtb/VTBGroupCond-Light.woff2') format('woff2'),
+        url('fonts/vtb/VTBGroupCond-Light.woff') format('woff'),
+        url('fonts/vtb/VTBGroupCond-Light.ttf') format('truetype'),
+        url('fonts/vtb/VTBGroupCond-Light.svg#VTBGroupCond-Light') format('svg');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'VTB Group';
+    src: url('fonts/vtb/VTBGroup-BoldOblique.eot');
+    src: local('VTB Group Bold Oblique'), local('VTBGroup-BoldOblique'),
+        url('fonts/vtb/VTBGroup-BoldOblique.eot?#iefix') format('embedded-opentype'),
+        url('fonts/vtb/VTBGroup-BoldOblique.woff2') format('woff2'),
+        url('fonts/vtb/VTBGroup-BoldOblique.woff') format('woff'),
+        url('fonts/vtb/VTBGroup-BoldOblique.ttf') format('truetype'),
+        url('fonts/vtb/VTBGroup-BoldOblique.svg#VTBGroup-BoldOblique') format('svg');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'VTB Group Cond';
+    src: url('fonts/vtb/VTBGroupCond-Bold.eot');
+    src: local('VTB Group Cond Bold'), local('VTBGroupCond-Bold'),
+        url('fonts/vtb/VTBGroupCond-Bold.eot?#iefix') format('embedded-opentype'),
+        url('fonts/vtb/VTBGroupCond-Bold.woff2') format('woff2'),
+        url('fonts/vtb/VTBGroupCond-Bold.woff') format('woff'),
+        url('fonts/vtb/VTBGroupCond-Bold.ttf') format('truetype'),
+        url('fonts/vtb/VTBGroupCond-Bold.svg#VTBGroupCond-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'VTB Group';
+    src: url('fonts/vtb/VTBGroup-Light.eot');
+    src: local('VTB Group Light'), local('VTBGroup-Light'),
+        url('fonts/vtb/VTBGroup-Light.eot?#iefix') format('embedded-opentype'),
+        url('fonts/vtb/VTBGroup-Light.woff2') format('woff2'),
+        url('fonts/vtb/VTBGroup-Light.woff') format('woff'),
+        url('fonts/vtb/VTBGroup-Light.ttf') format('truetype'),
+        url('fonts/vtb/VTBGroup-Light.svg#VTBGroup-Light') format('svg');
+    font-weight: 300;
+    font-style: normal;
+}
+
+$base: 'VTB Group';
+$cond: 'VTB Group Cond';
